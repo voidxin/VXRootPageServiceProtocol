@@ -51,6 +51,7 @@
 		576F094A1E9B83840067D018 /* VXRootPageServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VXRootPageServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576F094E1E9B83840067D018 /* VXRootPageServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VXRootPageServiceProtocolUITests.m; sourceTree = "<group>"; };
 		576F09501E9B83840067D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576F095D1E9B83B70067D018 /* VXRootPageServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VXRootPageServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		576F09281E9B83830067D018 /* VXRootPageServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				576F095C1E9B83980067D018 /* VXRootPageServiceProtocol */,
 				576F092C1E9B83830067D018 /* AppDelegate.h */,
 				576F092D1E9B83830067D018 /* AppDelegate.m */,
 				576F092F1E9B83830067D018 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				576F09501E9B83840067D018 /* Info.plist */,
 			);
 			path = VXRootPageServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		576F095C1E9B83980067D018 /* VXRootPageServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				576F095D1E9B83B70067D018 /* VXRootPageServiceProtocol.h */,
+			);
+			path = VXRootPageServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
