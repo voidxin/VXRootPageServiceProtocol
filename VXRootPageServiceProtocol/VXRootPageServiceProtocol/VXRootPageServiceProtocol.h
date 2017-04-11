@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @protocol VXRootPageServiceProtocol <NSObject>
 
 - (UIViewController *)rootPageViewControllerWith:(id)Object;
